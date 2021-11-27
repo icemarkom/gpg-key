@@ -21,4 +21,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
         with:
-          asset_paths: '[ "markom@gmail.com.asc" ]'
+          asset_paths: '[ "./markom@gmail.com.asc" ]'
